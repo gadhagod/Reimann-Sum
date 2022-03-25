@@ -10,6 +10,6 @@ A Python program to visually demonstrate the Riemann Sum.
 The following inputs, in the form of command-line arguments, are required.
 
 * `limit` (maximum x value)
-* `interval` (use "1"; it breaks the graph when anything else is inputted, but the total area is still accurately calculated)
+* `interval`
 * `exponent` (y = x^`exponent`)
 * `y_intercept`

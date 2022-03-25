@@ -19,6 +19,6 @@ def makeGraph(y_coordinates, limit, exponent, areas, result, interval, y_interce
         if(i != 0):
             plt.text((i + (i-interval))/2, 0, f"A={areas[i]}", {"size": 14})
         
-    plt.text(0, max(y_coordinates)-2, f"Total A={result}\nEquation: y=x^{exponent}\nY max: {limit}", {"size": 22})
-    plt.xlim([min(y_coordinates), limit])
+    plt.title(f"Total A={result}\nEquation: y=x^{exponent}\nY max: {limit}", {"size": 22})
+    plt.xlim(0)
     plt.show()
